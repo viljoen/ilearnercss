@@ -1,0 +1,161 @@
+/* remove standard formatting */
+*{
+    margin: 0px;
+    padding: 0px
+    box-sizing: border-box;
+}
+
+/* navigation bar/menu behaviour */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #82378b; 
+    font-family: 'Kiwi Maru', serif;
+    color: white;
+}
+.logo {
+    color: rgb(238, 237, 237);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-left: 0.5%;
+    margin-right: 2%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:rgb(238, 237, 237);
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.burgermenu{
+    display: none;
+    margin-left: 2%;
+    margin-right: 2.5%;
+    cursor: pointer;
+}
+.burgermenu div{
+width: 25px;
+height: 3px;
+background-color:rgb(238, 237, 237);
+margin: 5px;
+}
+
+.line1{
+
+}
+
+.line2{
+
+}
+
+.line3{
+
+}
+/* Newer Monitors */
+@media screen and (max-width: 2560px){
+    body{
+        overflow-x: hidden;
+        
+    }
+    .nav-links{
+        position: absolute;
+        left: 0;
+        height: 92vh;
+        top: 8vh;
+        background-color: #82378b;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 12%;
+        transform: translateX(20%);
+        transition: transform 0.5s ease-in;
+        
+    }
+    .nav-links li{
+        opacity: 0;    
+    }
+    .burgermenu {
+        display: block;
+    }
+    .nav-active{
+        opacity: 0;
+
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .nav-links{
+        width: 15%;
+        
+    }
+}
+
+@media screen and (max-width: 1270px){
+    .nav-links{
+        width: 17%;
+        
+    }
+}
+/* Smaller screens, older pc's*/
+@media screen and (max-width: 1024px){
+    .nav-links{
+        width: 20%;
+        
+    }
+}
+/* Ipad screen */
+@media screen and (max-width: 768px){
+    .nav-links{
+        width: 25%;
+        
+    }
+}
+@media screen and (max-width: 570px){
+    .nav-links{
+        width: 30%;
+        
+    }
+}
+/* Mobile Phone portrait */
+@media screen and (max-width: 450px){
+    .nav-links{
+
+        width: 40%;
+        
+    }
+}
+
+/* Font Standardisation */
+
+
+p {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 12px;
+    color: #000000;
+   }
+h1 {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000066;
+   }
+h2{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000066;
+   }
+
