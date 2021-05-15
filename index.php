@@ -113,6 +113,18 @@
 
                 
         </nav>
+        
+        <div class="grid-container">
+            <div class="SubMenu">
+             <p>This is text text</br> This is test text <br> </p>   
+            </div>
+            <div class="Content">
+              <p>This is text text</br> This is test text <br> </p>  
+            </div>
+            <div class="InfoPanel">
+              <p>This is text text</br> This is test text <br> </p>  
+            </div>
+</div>
         <p>This is text text</br> This is test text <br> </p>
         <script src="learn.js"></script>
     </body>

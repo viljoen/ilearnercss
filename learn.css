@@ -11,12 +11,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    background-color: #82378b; 
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c21500, #ffc500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c21500, #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-family: 'Kiwi Maru', serif;
     color: white;
 }
 .logo {
-    color: rgb(238, 237, 237);
+    color: #F4F5F3;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 22px;
@@ -34,7 +37,7 @@ nav {
     list-style: none;
 }
 .nav-links a{
-    color:rgb(238, 237, 237);
+    color:#F4F5F3;
     text-decoration: none;
     letter-spacing: 3px;
 }
@@ -47,19 +50,42 @@ nav {
 .burger div{
 width: 25px;
 height: 3px;
-background-color:rgb(238, 237, 237);
+background-color:#F4F5F3;
 margin: 5px;
 transition: all 0.25s ease-in;
 
 }
+body {
+  background: linear-gradient(to right, #232526, #414345);
+}
 
-
-
-
-
-
-
-
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px 5px;
+  height: 750px;
+  padding: 5px 5px 5px 5px;
+  grid-template-areas:
+    "SubMenu Content Content InfoPanel"
+    "SubMenu Content Content InfoPanel";
+}
+.SubMenu { 
+    grid-area: SubMenu; 
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    padding: 5px 5px 5px 5px;
+    
+}
+.Content { 
+    grid-area: Content; 
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 5px 5px 5px 5px;
+}
+.InfoPanel { 
+    grid-area: InfoPanel;
+    background: #F4F5F3;
+    padding: 5px 5px 5px 5px;
+}
 
 
 /* Newer Monitors */
@@ -73,7 +99,7 @@ transition: all 0.25s ease-in;
         left: 0px; 
         height: 92vh;
         top: 8vh;
-        background-color: #82378b;
+        background: #c21500;  /* fallback for old browsers */
         display: flex;
         flex-direction: column;
         align-items: center;
