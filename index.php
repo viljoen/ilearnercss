@@ -16,14 +16,15 @@
     <body>
 
         <nav>
-            <div class="burgermenu">
+            <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
-            </div>
+            </div>            
+                      
             
-                
-                <ul class="nav-links">
+                     
+            <ul class="nav-links">
                     <li><a href="#">iDashboard</a></li>
                     <li><a href="#">iNotify</a></li>
                       <!--  <ul>
@@ -105,10 +106,11 @@
                         </ul>-->
                     <li><a href="#">iLogout</a></li>
                 </ul>
-
-                <div class="logo">
+            
+            <div class="logo">
                     <h4>iLearner CSS Template</h4>
-                </div>
+            </div>
+
                 
         </nav>
         <p>This is text text</br> This is test text <br> </p>
