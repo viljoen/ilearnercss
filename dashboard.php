@@ -55,10 +55,10 @@ include 'header.php';
                     </div>
 
                 </div>   
-              <p>This is text text</br> This is test text <br> </p>  
+              <p>This is text Dashboard</br> This is test Dashboard <br> </p>  
             </div>
             <div class="InfoPanel">
-              <p>This is text text</br> This is test text <br> </p>  
+              <p>This is Dashboard info</br> This is This is Dashboard info <br> </p>  
             </div>
 </div>
         
