@@ -28,6 +28,31 @@ include 'header.php';
             </div>
             </div>
             <div class="Content">
+                <div class="main-overview">
+                    <div class="overviewcard">
+                        <div class="overviewcard__icon">Overview</div>
+                        <div class="overviewcard__info">Card1</div>
+                    </div>
+                    <div class="overviewcard">
+                        <div class="overviewcard__icon">Overview</div>
+                        <div class="overviewcard__info">Card2</div>
+                    </div>
+                    <div class="overviewcard">
+                        <div class="overviewcard__icon">Overview</div>
+                        <div class="overviewcard__info">Card3</div>
+                    </div>
+                    <div class="overviewcard">
+                        <div class="overviewcard__icon">Overview</div>
+                        <div class="overviewcard__info">Card4</div>
+                    </div>
+                </div>
+                
+                <div class="main-cards">
+                    <div class="cards">OtherCardMain</div>
+                    <div class="cards">OtherCardSecondary</div>
+                    <div class="cards">OtherCardThird</div>
+                </div>
+  
                 
                 
 
@@ -58,7 +83,79 @@ include 'header.php';
               <p>This is text Dashboard</br> This is test Dashboard <br> </p>  
             </div>
             <div class="InfoPanel">
-              <p>This is Dashboard info</br> This is This is Dashboard info <br> </p>  
+                <div class="month">
+                    <ul>
+                        <li class="prev">&#10094;</li>
+                        <li class="next">&#10095;</li>
+                        <li>August<br><span style="font-size:12px">2021</span></li>
+                    </ul>
+                </div>
+
+                <ul class="weekdays">
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>
+                    <li>Su</li>
+                </ul>
+
+                <ul class="days">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li><span class="active">10</span></li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                </ul>    
+                <div id="myDIV" class="header">
+                    <h2>My To Do List</h2>
+                    <input type="text" id="myInput" placeholder="Title...">
+                    <span onclick="newElement()" class="addBtn">Add</span>
+                </div>
+
+                <ul id="myUL">
+                    <li>Hit the gym</li>
+                    <li class="checked">Pay bills</li>
+                    <li>Meet George</li>
+                    <li>Buy eggs</li>
+                    <li>Read a book</li>
+                    <li>Organize office</li>
+                </ul> 
+                <!--https://www.w3schools.com/howto/howto_js_todolist.asp-->
+                
+                <br><a href="#" class="notification">
+                    <span>Inbox</span>
+                    <span class="badge">3</span>
+                </a><br><!-- https://www.w3schools.com/howto/howto_css_notification_button.asp --> 
+
+                <br><p>This is Dashboard info</br> This is This is Dashboard info <br> </p>  
             </div>
 </div>
         

@@ -207,7 +207,7 @@ include 'header.php';
                     </div>
                     <!-- repeat the card here. -->
                     <div class="card">
-                                                <header class="card-header">
+                        <header class="card-header">
                             <div>
                                 <div class="category-title">
                                     GridView
@@ -231,7 +231,7 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="card">
-                                                <header class="card-header">
+                        <header class="card-header">
                             <div>
                                 <div class="category-title">
                                     GridView
@@ -255,31 +255,7 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="card">
-                                                <header class="card-header">
-                            <div>
-                                <div class="category-title">
-                                    GridView
-                                    <span class="date">MMM DD, YYYY</span>
-                                </div>
-                            </div>
-                            <h2 class="card-title">
-                                GridViewCardTitle
-                            </h2>
-                        </header>
-                        <div class="Trainer">
-                            <div class="profile"></div>
-                            <div class="info">
-                                <div class="caption">Trainer</div>
-                                <div class="name">Firstname Lastname</div>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <div>Tag 1</div>
-                            <div>Tag 2</div>
-                        </div>
-                    </div>
-                                        <div class="card">
-                                                                    <header class="card-header">
+                        <header class="card-header">
                             <div>
                                 <div class="category-title">
                                     GridView
@@ -303,7 +279,31 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="card">
-                                                <header class="card-header">
+                        <header class="card-header">
+                            <div>
+                                <div class="category-title">
+                                    GridView
+                                    <span class="date">MMM DD, YYYY</span>
+                                </div>
+                            </div>
+                            <h2 class="card-title">
+                                GridViewCardTitle
+                            </h2>
+                        </header>
+                        <div class="Trainer">
+                            <div class="profile"></div>
+                            <div class="info">
+                                <div class="caption">Trainer</div>
+                                <div class="name">Firstname Lastname</div>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <div>Tag 1</div>
+                            <div>Tag 2</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <header class="card-header">
                             <div>
                                 <div class="category-title">
                                     GridView

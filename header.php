@@ -42,24 +42,24 @@ and open the template in the editor.
                         </ul>                   
                     <li><a href="#">iWizards</a></li>
                         <ul>
-                            <li><a href="#">iAdd Programme</a></li>
-                            <li><a href="#">iAdd Courses</a></li>
-                            <li><a href="#">iContent Create</a></li>
-                            <li><a href="#">iTemplate Create</a></li>
+                            <li><a href="#">iAddProgrammeWizard</a></li>
+                            <li><a href="#">iAddCoursesWizard</a></li>
+                            <li><a href="#">iContentCreateWizard</a></li>
+                            <li><a href="#">iTemplateCreateWizard</a></li>
                         </ul>
                     <li><a href="#">iProgrammes</a></li>
                         <ul>
-                            <li><a href="#">iCreate</a></li>
-                            <li><a href="#">iUdpdate</a></li>
-                            <li><a href="#">iArchive</a></li>
-                            <li><a href="#">iCheck</a></li>
+                            <li><a href="#">iProgrammeCreate</a></li>
+                            <li><a href="#">iProgrammeUdpdate</a></li>
+                            <li><a href="#">iProgrammeArchive</a></li>
+                            <li><a href="#">iProgrammeCheck</a></li>
                         </ul>
                     <li><a href="#">iCourses</a></li>
                         <ul>
-                            <li><a href="#">iCreate</a></li>
-                            <li><a href="#">iUdpdate</a></li>
-                            <li><a href="#">iArchive</a></li>
-                            <li><a href="#">iCheck</a></li>
+                            <li><a href="#">iCourseCreate</a></li>
+                            <li><a href="#">iCourseUdpdate</a></li>
+                            <li><a href="#">iCourseArchive</a></li>
+                            <li><a href="#">iCourseCheck</a></li>
                         </ul>                   
                     <li><a href="#">iUsers</a></li>
                         <ul>
@@ -70,11 +70,11 @@ and open the template in the editor.
                         </ul>
                     <li><a href="#">iLearning Centre</a></li>
                         <ul>
-                            <li><a href="#">iCourse Planner</a></li>
-                            <li><a href="#">iContent Creator</a></li>
-                            <li><a href="#">iMedia Library</a></li>
+                            <li><a href="#">iCoursePlanner</a></li>
+                            <li><a href="#">iContentCreator</a></li>
+                            <li><a href="#">iMediaLibrary</a></li>
                             <li><a href="#">iAssess</a></li>
-                            <li><a href="#">iReport Builder</a></li>
+                            <li><a href="#">iReportBuilder</a></li>
                         </ul>
                     <li><a href="#">iCommerce</a></li>
                         <ul>
@@ -90,19 +90,19 @@ and open the template in the editor.
                         </ul>
                     <li><a href="#">iConfig</a></li>
                         <ul>
-                            <li><a href="#">iDashboard</a></li>
-                            <li><a href="#">iWizard</a></li>
-                            <li><a href="#">iReport</a></li>
-                            <li><a href="#">iNotify</a></li>
-                            <li><a href="#">iEnquiry</a></li>
-                            <li><a href="#">iStaff</a></li>
-                            <li><a href="#">iStudent</a></li>
-                            <li><a href="#">iProgrammes</a></li>
-                            <li><a href="#">iCourses</a></li>
-                            <li><a href="#">iLearning Centre</a></li>
-                            <li><a href="#">iMessenger</a></li>
-                            <li><a href="#">iCommerce</a></li>
-                            <li><a href="#">iBrand</a></li>
+                            <li><a href="#">iDashboardConfig</a></li>
+                            <li><a href="#">iWizardConfig</a></li>
+                            <li><a href="#">iReportConfig</a></li>
+                            <li><a href="#">iNotifyConfig</a></li>
+                            <li><a href="#">iEnquiryConfig</a></li>
+                            <li><a href="#">iStaffConfig</a></li>
+                            <li><a href="#">iStudentConfig</a></li>
+                            <li><a href="#">iProgrammesConfig</a></li>
+                            <li><a href="#">iCoursesConfig</a></li>
+                            <li><a href="#">iLearningCentreConfig</a></li>
+                            <li><a href="#">iMessengerConfig</a></li>
+                            <li><a href="#">iCommerceConfig</a></li>
+                            <li><a href="#">iBrandConfig</a></li>
                             
                         </ul>
                     <li><a href="#">iProfile</a></li>
